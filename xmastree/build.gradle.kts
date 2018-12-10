@@ -11,7 +11,7 @@ buildscript {
     }
 }
 
-val publishVersion = "1.0"
+val publishVersion = "2.0"
 
 subprojects {
     apply(plugin = "maven-publish")
@@ -30,8 +30,18 @@ subprojects {
     }
 
     dependencies {
+        val platformSuffix = if (isAndroid()) "android" else "swing"
         if (!name.startsWith("tree-")) {
-            add("api", "com.santasoft.xmastree:tree-${if (isAndroid()) "android" else "swing"}:$publishVersion")
+            add("api", "com.santasoft.xmastree:tree-$platformSuffix:$publishVersion")
+        } else {
+            constraints {
+                rootProject.subprojects.forEach {
+                    if (it != this@subprojects && it.name.endsWith(platformSuffix)) {
+                        add("api", "com.santasoft.xmastree:${it.name}:$publishVersion")
+                    }
+                }
+            }
+
         }
     }
 
