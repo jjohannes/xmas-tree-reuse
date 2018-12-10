@@ -1,0 +1,97 @@
+{
+  "formatVersion": "0.4",
+  "component": {
+    "group": "com.santasoft.xmastree",
+    "module": "lights",
+    "version": "2.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "5.0",
+      "buildId": "elqedkdl5nhnpfsdthgz34x5be"
+    }
+  },
+  "variants": [
+    {
+      "name": "swing-runtime",
+      "attributes": {
+        "org.gradle.usage": "java-runtime",
+        "ui-framework": "swing"
+      },
+      "available-at": {
+        "url": "../../lights-swing/2.0/lights-swing-2.0.module",
+        "group": "com.santasoft.xmastree",
+        "module": "lights-swing",
+        "version": "2.0"
+      }
+    },
+    {
+      "name": "swing-api",
+      "attributes": {
+        "org.gradle.usage": "java-api",
+        "ui-framework": "swing"
+      },
+      "available-at": {
+        "url": "../../lights-swing/2.0/lights-swing-2.0.module",
+        "group": "com.santasoft.xmastree",
+        "module": "lights-swing",
+        "version": "2.0"
+      }
+    },
+    {
+      "name": "gif-runtime",
+      "attributes": {
+        "org.gradle.usage": "java-runtime",
+        "ui-framework": "gif"
+      },
+      "available-at": {
+        "url": "../../lights-gif/2.0/lights-gif-2.0.module",
+        "group": "com.santasoft.xmastree",
+        "module": "lights-gif",
+        "version": "2.0"
+      }
+    },
+    {
+      "name": "gif-api",
+      "attributes": {
+        "org.gradle.usage": "java-api",
+        "ui-framework": "gif"
+      },
+      "available-at": {
+        "url": "../../lights-gif/2.0/lights-gif-2.0.module",
+        "group": "com.santasoft.xmastree",
+        "module": "lights-gif",
+        "version": "2.0"
+      }
+    },
+    {
+      "name": "android-runtime",
+      "attributes": {
+        "org.gradle.usage": "java-runtime",
+        "ui-framework": "android"
+      },
+      "available-at": {
+        "url": "../../lights-swing/2.0/lights-android-2.0.module",
+        "group": "com.santasoft.xmastree",
+        "module": "lights-android",
+        "version": "2.0"
+      }
+    },
+    {
+      "name": "android-api",
+      "attributes": {
+        "org.gradle.usage": "java-api",
+        "ui-framework": "android"
+      },
+      "available-at": {
+        "url": "../../lights-swing/2.0/lights-android-2.0.module",
+        "group": "com.santasoft.xmastree",
+        "module": "lights-android",
+        "version": "2.0"
+      }
+    }
+  ]
+}

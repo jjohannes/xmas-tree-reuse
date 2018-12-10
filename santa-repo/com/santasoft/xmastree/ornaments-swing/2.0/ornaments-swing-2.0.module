@@ -1,0 +1,67 @@
+{
+  "formatVersion": "0.4",
+  "component": {
+    "group": "com.santasoft.xmastree",
+    "module": "ornaments-swing",
+    "version": "2.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "5.0",
+      "buildId": "lsynp5rhcnhxfl2ctepespyfoi"
+    }
+  },
+  "variants": [
+    {
+      "name": "runtime",
+      "attributes": {
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "com.santasoft.xmastree",
+          "module": "tree-swing",
+          "version": {
+            "requires": "2.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "ornaments-swing-2.0.jar",
+          "url": "ornaments-swing-2.0.jar",
+          "size": 4910,
+          "sha1": "1a19bc2a03ae202cf4d47f67c67cdc20e97f0e65",
+          "md5": "d0542ed3167ddd09188d7835d2268ad"
+        }
+      ]
+    },
+    {
+      "name": "api",
+      "attributes": {
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "com.santasoft.xmastree",
+          "module": "tree-swing",
+          "version": {
+            "requires": "2.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "ornaments-swing-2.0.jar",
+          "url": "ornaments-swing-2.0.jar",
+          "size": 4910,
+          "sha1": "1a19bc2a03ae202cf4d47f67c67cdc20e97f0e65",
+          "md5": "d0542ed3167ddd09188d7835d2268ad"
+        }
+      ]
+    }
+  ]
+}

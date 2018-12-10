@@ -1,0 +1,95 @@
+{
+  "formatVersion": "0.4",
+  "component": {
+    "group": "com.santasoft.xmastree",
+    "module": "tree-swing",
+    "version": "2.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "5.0",
+      "buildId": "lsynp5rhcnhxfl2ctepespyfoi"
+    }
+  },
+  "variants": [
+    {
+      "name": "runtime",
+      "attributes": {
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencyConstraints": [
+        {
+          "group": "com.santasoft.xmastree",
+          "module": "lights-swing",
+          "version": {
+            "requires": "2.0"
+          }
+        },
+        {
+          "group": "com.santasoft.xmastree",
+          "module": "ornaments-swing",
+          "version": {
+            "requires": "2.0"
+          }
+        },
+        {
+          "group": "com.santasoft.xmastree",
+          "module": "train-swing",
+          "version": {
+            "requires": "2.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "tree-swing-2.0.jar",
+          "url": "tree-swing-2.0.jar",
+          "size": 7846,
+          "sha1": "1414f63953876ee06aeaf975dfed80adf38a6439",
+          "md5": "77560cfd3fcb111fca3a39bdee1618fa"
+        }
+      ]
+    },
+    {
+      "name": "api",
+      "attributes": {
+        "org.gradle.usage": "java-api"
+      },
+      "dependencyConstraints": [
+        {
+          "group": "com.santasoft.xmastree",
+          "module": "lights-swing",
+          "version": {
+            "requires": "2.0"
+          }
+        },
+        {
+          "group": "com.santasoft.xmastree",
+          "module": "ornaments-swing",
+          "version": {
+            "requires": "2.0"
+          }
+        },
+        {
+          "group": "com.santasoft.xmastree",
+          "module": "train-swing",
+          "version": {
+            "requires": "2.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "tree-swing-2.0.jar",
+          "url": "tree-swing-2.0.jar",
+          "size": 7846,
+          "sha1": "1414f63953876ee06aeaf975dfed80adf38a6439",
+          "md5": "77560cfd3fcb111fca3a39bdee1618fa"
+        }
+      ]
+    }
+  ]
+}

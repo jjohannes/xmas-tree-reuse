@@ -1,0 +1,89 @@
+{
+  "formatVersion": "0.4",
+  "component": {
+    "group": "com.santasoft.xmastree",
+    "module": "tree-android",
+    "version": "2.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "5.0",
+      "buildId": "elqedkdl5nhnpfsdthgz34x5be"
+    }
+  },
+  "variants": [
+    {
+      "name": "runtime",
+      "attributes": {
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencyConstraints": [
+        {
+          "group": "com.santasoft.xmastree",
+          "module": "lights-android",
+          "version": {
+            "requires": "2.0"
+          }
+        },
+        {
+          "group": "com.santasoft.xmastree",
+          "module": "ornaments-android",
+          "version": {
+            "requires": "2.0"
+          }
+        },
+        {
+          "group": "com.santasoft.xmastree",
+          "module": "train-android",
+          "version": {
+            "requires": "2.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "tree-android-2.0.aar",
+          "url": "tree-android-2.0.aar"
+        }
+      ]
+    },
+    {
+      "name": "api",
+      "attributes": {
+        "org.gradle.usage": "java-api"
+      },
+      "dependencyConstraints": [
+        {
+          "group": "com.santasoft.xmastree",
+          "module": "lights-android",
+          "version": {
+            "requires": "2.0"
+          }
+        },
+        {
+          "group": "com.santasoft.xmastree",
+          "module": "ornaments-android",
+          "version": {
+            "requires": "2.0"
+          }
+        },
+        {
+          "group": "com.santasoft.xmastree",
+          "module": "train-android",
+          "version": {
+            "requires": "2.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "tree-android-2.0.aar",
+          "url": "tree-android-2.0.aar"
+        }
+      ]
+    }
+  ]
+}
