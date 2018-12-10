@@ -30,7 +30,7 @@ subprojects {
     }
 
     dependencies {
-        val platformSuffix = if (isAndroid()) "android" else "swing"
+        val platformSuffix = if (isAndroid()) "android" else if (isGif()) "gif" else "swing"
         if (!name.startsWith("tree-")) {
             add("api", "com.santasoft.xmastree:tree-$platformSuffix:$publishVersion")
         } else {
@@ -67,3 +67,4 @@ subprojects {
 }
 
 fun Project.isAndroid() = name.endsWith("-android")
+fun Project.isGif() = name.endsWith("-gif")
