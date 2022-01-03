@@ -1,7 +1,11 @@
+plugins {
+    id("xmastree")
+}
+
 android {
-    compileSdkVersion(27)
+    compileSdk = 27
     defaultConfig {
-        minSdkVersion(15)
-        targetSdkVersion(27)
+        minSdk = 15
+        targetSdk = 27
     }
 }

@@ -51,10 +51,10 @@
           "name": "tree-gif-2.0.jar",
           "url": "tree-gif-2.0.jar",
           "size": 10228,
-          "sha512": "37162c14749247a59b23c299930b4bf2630b732865de40e7633cea294fa4798cda40db9d1090e9f869149edd6ffb3f5ec818e9f57a9d5747a5116e7aa2f685f0",
-          "sha256": "b5db7c2514da090521dafbec0351cc7a0a67a10db1cf459ecc256b72e94b200e",
-          "sha1": "b4af3302eaac7cc91d1d889b0cca583a0776f9d2",
-          "md5": "02c0bb8ab45299950af5df056142445e"
+          "sha512": "ff49f013352b7997db2046a8a1959d670ab3a0d3a90681034f8b04a504442a2ed563cf117b52a29621b7de9f77b11218220a2e7c539cdfabb27babbf3294c980",
+          "sha256": "3383df10d2f430886bc0b9386836615bd50e866e7de7b62da500e494f6c184a4",
+          "sha1": "30b8e146a44e79dbeca80064afe8ad2469f9ae78",
+          "md5": "f4b433fce9e3ed4d37fefe1ea77b2610"
         }
       ]
     },
@@ -95,10 +95,10 @@
           "name": "tree-gif-2.0.jar",
           "url": "tree-gif-2.0.jar",
           "size": 10228,
-          "sha512": "37162c14749247a59b23c299930b4bf2630b732865de40e7633cea294fa4798cda40db9d1090e9f869149edd6ffb3f5ec818e9f57a9d5747a5116e7aa2f685f0",
-          "sha256": "b5db7c2514da090521dafbec0351cc7a0a67a10db1cf459ecc256b72e94b200e",
-          "sha1": "b4af3302eaac7cc91d1d889b0cca583a0776f9d2",
-          "md5": "02c0bb8ab45299950af5df056142445e"
+          "sha512": "ff49f013352b7997db2046a8a1959d670ab3a0d3a90681034f8b04a504442a2ed563cf117b52a29621b7de9f77b11218220a2e7c539cdfabb27babbf3294c980",
+          "sha256": "3383df10d2f430886bc0b9386836615bd50e866e7de7b62da500e494f6c184a4",
+          "sha1": "30b8e146a44e79dbeca80064afe8ad2469f9ae78",
+          "md5": "f4b433fce9e3ed4d37fefe1ea77b2610"
         }
       ]
     }

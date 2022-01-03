@@ -37,10 +37,10 @@
           "name": "ornaments-swing-2.0.jar",
           "url": "ornaments-swing-2.0.jar",
           "size": 4909,
-          "sha512": "1a180073215de6e20964e39d5c39c09b360e43401cb2e5762cface99514fed20f215d53c1d4f366a6b36cad65bc37c7c21a15e8934e438b374c66b2b80718d10",
-          "sha256": "88863da52e9321294cdbfac2a67664eb9cdca4b7e26639c16993e76b3e4ae897",
-          "sha1": "096f13afe3beb636e109ca0676d5d50293045c78",
-          "md5": "a7810dcd8bd20f9da981e22894e4ffd7"
+          "sha512": "08ea7fb08343ed9999b9285b8218582e43ef96e53d4abf37b912b97f3152dce98270b9b5de3de2fc170edd08b3e6904ae6c3c7fba9e5ff857649247f8d132fff",
+          "sha256": "5522d000fab4501b4d268ef2d0c0a8cd44f5e561129600008e607fec5a087102",
+          "sha1": "3252ee35a098acf853dec2dff912f6541ddddf57",
+          "md5": "031b6136a8d9b95a5550b547acfa7017"
         }
       ]
     },
@@ -67,10 +67,10 @@
           "name": "ornaments-swing-2.0.jar",
           "url": "ornaments-swing-2.0.jar",
           "size": 4909,
-          "sha512": "1a180073215de6e20964e39d5c39c09b360e43401cb2e5762cface99514fed20f215d53c1d4f366a6b36cad65bc37c7c21a15e8934e438b374c66b2b80718d10",
-          "sha256": "88863da52e9321294cdbfac2a67664eb9cdca4b7e26639c16993e76b3e4ae897",
-          "sha1": "096f13afe3beb636e109ca0676d5d50293045c78",
-          "md5": "a7810dcd8bd20f9da981e22894e4ffd7"
+          "sha512": "08ea7fb08343ed9999b9285b8218582e43ef96e53d4abf37b912b97f3152dce98270b9b5de3de2fc170edd08b3e6904ae6c3c7fba9e5ff857649247f8d132fff",
+          "sha256": "5522d000fab4501b4d268ef2d0c0a8cd44f5e561129600008e607fec5a087102",
+          "sha1": "3252ee35a098acf853dec2dff912f6541ddddf57",
+          "md5": "031b6136a8d9b95a5550b547acfa7017"
         }
       ]
     }

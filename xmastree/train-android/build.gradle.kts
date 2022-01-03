@@ -1,3 +1,7 @@
+plugins {
+    id("xmastree")
+}
+
 android {
     compileSdk = 27
     defaultConfig {

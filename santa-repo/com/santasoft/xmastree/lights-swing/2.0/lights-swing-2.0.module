@@ -37,10 +37,10 @@
           "name": "lights-swing-2.0.jar",
           "url": "lights-swing-2.0.jar",
           "size": 9826,
-          "sha512": "eef76e7f6b8c05add22fbbae59f2f118e9d072ed9d80d26aa41478f24297641a13fb8e76331304bed15e399db68394d85859198954f46a821ac21282fa4e3fe5",
-          "sha256": "ced7b54e69e74dfe695089d8784f077944fbc2c88bb110fb95378475bf294084",
-          "sha1": "6aa23fa2bc65224d77c4badd37e9c94ab8939ca6",
-          "md5": "8aebbf58ae78b1ef110979ca7a30c7de"
+          "sha512": "17674ffbafc41594ee036dedfab6f32f3ad261f0c90b22d1c7fba3faa1b4bcc03a3266f2e342447484e1dee4c92461a2aeb6a7b7ce23d22f7d9d93a1d8e4e39b",
+          "sha256": "d358f83fa8b4eea6e4751f54d15a82ee562b95d7d0aaaa6dda0d02d7eb356ddf",
+          "sha1": "7ea56f901629377cea7856a6a20fcb9f2f521473",
+          "md5": "938733969f0009e39e489f6cb6c031f1"
         }
       ]
     },
@@ -67,10 +67,10 @@
           "name": "lights-swing-2.0.jar",
           "url": "lights-swing-2.0.jar",
           "size": 9826,
-          "sha512": "eef76e7f6b8c05add22fbbae59f2f118e9d072ed9d80d26aa41478f24297641a13fb8e76331304bed15e399db68394d85859198954f46a821ac21282fa4e3fe5",
-          "sha256": "ced7b54e69e74dfe695089d8784f077944fbc2c88bb110fb95378475bf294084",
-          "sha1": "6aa23fa2bc65224d77c4badd37e9c94ab8939ca6",
-          "md5": "8aebbf58ae78b1ef110979ca7a30c7de"
+          "sha512": "17674ffbafc41594ee036dedfab6f32f3ad261f0c90b22d1c7fba3faa1b4bcc03a3266f2e342447484e1dee4c92461a2aeb6a7b7ce23d22f7d9d93a1d8e4e39b",
+          "sha256": "d358f83fa8b4eea6e4751f54d15a82ee562b95d7d0aaaa6dda0d02d7eb356ddf",
+          "sha1": "7ea56f901629377cea7856a6a20fcb9f2f521473",
+          "md5": "938733969f0009e39e489f6cb6c031f1"
         }
       ]
     }

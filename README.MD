@@ -12,7 +12,7 @@ cd xmas-tree-reuse/null8fuffzehn-apps
 ./gradlew null8fuffzehn-android:installDebug
 
 # generate the GIF
-./gradlew null8fuffzehn-gif:run
+./gradlew null8fuffzehn-gif:build
 
 # to modify the tree composition, edit: 'null8fuffzehn-shared/build.gradle.kts'
 ```

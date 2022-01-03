@@ -37,10 +37,10 @@
           "name": "train-swing-2.0.jar",
           "url": "train-swing-2.0.jar",
           "size": 3102,
-          "sha512": "528a7827d340fd122929f5b9a64e86f91c1259c5254623cd92258083349c9a4eb14bd4ff2f624d49e052d07282c0d9b7a007aa01b380301b6c5cc7ee453af024",
-          "sha256": "0bc0ed9d7a5829ad27f4dd262e6652e377fef3f37e1353ae5b0ae1ba5cc1aea6",
-          "sha1": "84aa01ecbb29975bb3be143a1cd6df62836c3893",
-          "md5": "9dbaebfd8161200bd89d661e0ecd22c8"
+          "sha512": "b18d774b4a7c46f9a204a7bcdf20230cd997cb50472add54b715136ef8a664ad3772ea0d2fbc24a98cf8f66bc53b6e0d438d9f64a216cfd6d8e3c9724308de04",
+          "sha256": "547f0f76b74850d52188b8cfa8fd54c60fb52eebf5610701310e2f097d326092",
+          "sha1": "07eddff1d4024cf7eb80b0de9073245a0b0e6f5b",
+          "md5": "c263f360683d39beabf2241e6f1e617c"
         }
       ]
     },
@@ -67,10 +67,10 @@
           "name": "train-swing-2.0.jar",
           "url": "train-swing-2.0.jar",
           "size": 3102,
-          "sha512": "528a7827d340fd122929f5b9a64e86f91c1259c5254623cd92258083349c9a4eb14bd4ff2f624d49e052d07282c0d9b7a007aa01b380301b6c5cc7ee453af024",
-          "sha256": "0bc0ed9d7a5829ad27f4dd262e6652e377fef3f37e1353ae5b0ae1ba5cc1aea6",
-          "sha1": "84aa01ecbb29975bb3be143a1cd6df62836c3893",
-          "md5": "9dbaebfd8161200bd89d661e0ecd22c8"
+          "sha512": "b18d774b4a7c46f9a204a7bcdf20230cd997cb50472add54b715136ef8a664ad3772ea0d2fbc24a98cf8f66bc53b6e0d438d9f64a216cfd6d8e3c9724308de04",
+          "sha256": "547f0f76b74850d52188b8cfa8fd54c60fb52eebf5610701310e2f097d326092",
+          "sha1": "07eddff1d4024cf7eb80b0de9073245a0b0e6f5b",
+          "md5": "c263f360683d39beabf2241e6f1e617c"
         }
       ]
     }
