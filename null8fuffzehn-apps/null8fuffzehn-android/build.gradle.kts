@@ -1,13 +1,13 @@
 plugins {
-    id("com.android.application")
+    id("com.android.application") version "7.0.4"
 }
 
 android {
-    compileSdkVersion(27)
+    compileSdk = 27
     defaultConfig {
         applicationId = "com.null8fuffzehn.app"
-        minSdkVersion(15)
-        targetSdkVersion(27)
+        minSdk = 15
+        targetSdk = 27
         versionCode = 1
         versionName = "1.0"
     }

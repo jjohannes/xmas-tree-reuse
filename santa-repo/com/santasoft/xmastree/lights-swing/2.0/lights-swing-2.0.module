@@ -1,5 +1,5 @@
 {
-  "formatVersion": "0.4",
+  "formatVersion": "1.1",
   "component": {
     "group": "com.santasoft.xmastree",
     "module": "lights-swing",
@@ -10,38 +10,17 @@
   },
   "createdBy": {
     "gradle": {
-      "version": "5.0",
-      "buildId": "lsynp5rhcnhxfl2ctepespyfoi"
+      "version": "7.3.3"
     }
   },
   "variants": [
     {
-      "name": "runtime",
+      "name": "apiElements",
       "attributes": {
-        "org.gradle.usage": "java-runtime"
-      },
-      "dependencies": [
-        {
-          "group": "com.santasoft.xmastree",
-          "module": "tree-swing",
-          "version": {
-            "requires": "2.0"
-          }
-        }
-      ],
-      "files": [
-        {
-          "name": "lights-swing-2.0.jar",
-          "url": "lights-swing-2.0.jar",
-          "size": 9936,
-          "sha1": "76e641c82fb17b8ce5ba77a850e1b60e7615fda8",
-          "md5": "4b8a0ed12252ed0bc8b7a73b856545a9"
-        }
-      ]
-    },
-    {
-      "name": "api",
-      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
         "org.gradle.usage": "java-api"
       },
       "dependencies": [
@@ -57,9 +36,41 @@
         {
           "name": "lights-swing-2.0.jar",
           "url": "lights-swing-2.0.jar",
-          "size": 9936,
-          "sha1": "76e641c82fb17b8ce5ba77a850e1b60e7615fda8",
-          "md5": "4b8a0ed12252ed0bc8b7a73b856545a9"
+          "size": 9826,
+          "sha512": "eef76e7f6b8c05add22fbbae59f2f118e9d072ed9d80d26aa41478f24297641a13fb8e76331304bed15e399db68394d85859198954f46a821ac21282fa4e3fe5",
+          "sha256": "ced7b54e69e74dfe695089d8784f077944fbc2c88bb110fb95378475bf294084",
+          "sha1": "6aa23fa2bc65224d77c4badd37e9c94ab8939ca6",
+          "md5": "8aebbf58ae78b1ef110979ca7a30c7de"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "com.santasoft.xmastree",
+          "module": "tree-swing",
+          "version": {
+            "requires": "2.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "lights-swing-2.0.jar",
+          "url": "lights-swing-2.0.jar",
+          "size": 9826,
+          "sha512": "eef76e7f6b8c05add22fbbae59f2f118e9d072ed9d80d26aa41478f24297641a13fb8e76331304bed15e399db68394d85859198954f46a821ac21282fa4e3fe5",
+          "sha256": "ced7b54e69e74dfe695089d8784f077944fbc2c88bb110fb95378475bf294084",
+          "sha1": "6aa23fa2bc65224d77c4badd37e9c94ab8939ca6",
+          "md5": "8aebbf58ae78b1ef110979ca7a30c7de"
         }
       ]
     }

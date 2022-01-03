@@ -1,5 +1,5 @@
 {
-  "formatVersion": "0.4",
+  "formatVersion": "1.1",
   "component": {
     "group": "com.santasoft.xmastree",
     "module": "lights-gif",
@@ -10,38 +10,17 @@
   },
   "createdBy": {
     "gradle": {
-      "version": "5.0",
-      "buildId": "lsynp5rhcnhxfl2ctepespyfoi"
+      "version": "7.3.3"
     }
   },
   "variants": [
     {
-      "name": "runtime",
+      "name": "apiElements",
       "attributes": {
-        "org.gradle.usage": "java-runtime"
-      },
-      "dependencies": [
-        {
-          "group": "com.santasoft.xmastree",
-          "module": "tree-gif",
-          "version": {
-            "requires": "2.0"
-          }
-        }
-      ],
-      "files": [
-        {
-          "name": "lights-gif-2.0.jar",
-          "url": "lights-gif-2.0.jar",
-          "size": 7598,
-          "sha1": "8c858360b74fdb8587ca55af0f3de5e18cbe883",
-          "md5": "603943a8c2fe6093443f37a187825a99"
-        }
-      ]
-    },
-    {
-      "name": "api",
-      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
         "org.gradle.usage": "java-api"
       },
       "dependencies": [
@@ -58,8 +37,40 @@
           "name": "lights-gif-2.0.jar",
           "url": "lights-gif-2.0.jar",
           "size": 7598,
-          "sha1": "8c858360b74fdb8587ca55af0f3de5e18cbe883",
-          "md5": "603943a8c2fe6093443f37a187825a99"
+          "sha512": "d40b5477091890395075f8033773ff0ab1167d7cde73fd0138d7cab83f08272c225c32e93125ad7512f30fda2e6d969bc401a6535891a5902b8070f0adcce632",
+          "sha256": "fdcd688348ef9756f29d63f8ddf26bb4f01f35651c1265008374a1d9de7c487f",
+          "sha1": "054cff033547ac406f50bbbc303e2772722f4205",
+          "md5": "f19df8f7e1e57fdf61c6e22c8ced3b70"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "com.santasoft.xmastree",
+          "module": "tree-gif",
+          "version": {
+            "requires": "2.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "lights-gif-2.0.jar",
+          "url": "lights-gif-2.0.jar",
+          "size": 7598,
+          "sha512": "d40b5477091890395075f8033773ff0ab1167d7cde73fd0138d7cab83f08272c225c32e93125ad7512f30fda2e6d969bc401a6535891a5902b8070f0adcce632",
+          "sha256": "fdcd688348ef9756f29d63f8ddf26bb4f01f35651c1265008374a1d9de7c487f",
+          "sha1": "054cff033547ac406f50bbbc303e2772722f4205",
+          "md5": "f19df8f7e1e57fdf61c6e22c8ced3b70"
         }
       ]
     }

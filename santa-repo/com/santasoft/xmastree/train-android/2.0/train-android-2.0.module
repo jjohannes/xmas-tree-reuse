@@ -1,0 +1,138 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.santasoft.xmastree",
+    "module": "train-android",
+    "version": "2.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.3.3"
+    }
+  },
+  "variants": [
+    {
+      "name": "debugAllApiPublication",
+      "attributes": {
+        "com.android.build.api.attributes.BuildTypeAttr": "debug",
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "com.santasoft.xmastree",
+          "module": "tree-android",
+          "version": {
+            "requires": "2.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "train-android-2.0-debug.aar",
+          "url": "train-android-2.0-debug.aar",
+          "size": 3845,
+          "sha512": "42326e9c297bbbe0ff4e421a30cc7dc434fdb604b2cc174a38cb5656826993d2515e353b9cb5e30109e53c9ca7afb16b645aabddea25aa42b4d63908af7fcca3",
+          "sha256": "09c84601675134972e33a3f892d830b9f0395537c946aea2ef208de5dc8a0dc0",
+          "sha1": "4b38640aa4ef97234c1430f6176dd3abab789deb",
+          "md5": "0850573956100fa5298e12a2e13ef41b"
+        }
+      ]
+    },
+    {
+      "name": "debugAllRuntimePublication",
+      "attributes": {
+        "com.android.build.api.attributes.BuildTypeAttr": "debug",
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "com.santasoft.xmastree",
+          "module": "tree-android",
+          "version": {
+            "requires": "2.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "train-android-2.0-debug.aar",
+          "url": "train-android-2.0-debug.aar",
+          "size": 3845,
+          "sha512": "42326e9c297bbbe0ff4e421a30cc7dc434fdb604b2cc174a38cb5656826993d2515e353b9cb5e30109e53c9ca7afb16b645aabddea25aa42b4d63908af7fcca3",
+          "sha256": "09c84601675134972e33a3f892d830b9f0395537c946aea2ef208de5dc8a0dc0",
+          "sha1": "4b38640aa4ef97234c1430f6176dd3abab789deb",
+          "md5": "0850573956100fa5298e12a2e13ef41b"
+        }
+      ]
+    },
+    {
+      "name": "releaseAllApiPublication",
+      "attributes": {
+        "com.android.build.api.attributes.BuildTypeAttr": "release",
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "com.santasoft.xmastree",
+          "module": "tree-android",
+          "version": {
+            "requires": "2.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "train-android-2.0-release.aar",
+          "url": "train-android-2.0-release.aar",
+          "size": 3747,
+          "sha512": "868629a0fa5b20df94a47b99d24446269a681fa6c497f343b0f3a638bb0d47aca1db1cfdf2007eee127a2a952f19374b6964a19bada241c343ff79c8a9a35646",
+          "sha256": "ffda83b3cbab39f610f5700707090ec7c97c6e4d86d4425edbf079fe364db5db",
+          "sha1": "b83aee54a2e9c04b0a9f2328871d7d0a4c351282",
+          "md5": "60c74df90c00fe734e8848c8cf973177"
+        }
+      ]
+    },
+    {
+      "name": "releaseAllRuntimePublication",
+      "attributes": {
+        "com.android.build.api.attributes.BuildTypeAttr": "release",
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "com.santasoft.xmastree",
+          "module": "tree-android",
+          "version": {
+            "requires": "2.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "train-android-2.0-release.aar",
+          "url": "train-android-2.0-release.aar",
+          "size": 3747,
+          "sha512": "868629a0fa5b20df94a47b99d24446269a681fa6c497f343b0f3a638bb0d47aca1db1cfdf2007eee127a2a952f19374b6964a19bada241c343ff79c8a9a35646",
+          "sha256": "ffda83b3cbab39f610f5700707090ec7c97c6e4d86d4425edbf079fe364db5db",
+          "sha1": "b83aee54a2e9c04b0a9f2328871d7d0a4c351282",
+          "md5": "60c74df90c00fe734e8848c8cf973177"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,138 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.santasoft.xmastree",
+    "module": "ornaments-android",
+    "version": "2.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.3.3"
+    }
+  },
+  "variants": [
+    {
+      "name": "debugAllApiPublication",
+      "attributes": {
+        "com.android.build.api.attributes.BuildTypeAttr": "debug",
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "com.santasoft.xmastree",
+          "module": "tree-android",
+          "version": {
+            "requires": "2.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "ornaments-android-2.0-debug.aar",
+          "url": "ornaments-android-2.0-debug.aar",
+          "size": 5660,
+          "sha512": "8c1e2d7a3c923945968142f76d61d8dadbe43055e5b1c4e372c27d34169c4d7796b8df925d9d2c8517501e595357ae58d7c15f0b04fe2006d02b6a95abc3a296",
+          "sha256": "c3e568270470ad55c64c3707a0896b8d1a498e4ed801bec244645850e47126e2",
+          "sha1": "61b5a3f2679c718daf4abe0953858bb62f42ee18",
+          "md5": "517cc171cb5bc300032d07aacf894c24"
+        }
+      ]
+    },
+    {
+      "name": "debugAllRuntimePublication",
+      "attributes": {
+        "com.android.build.api.attributes.BuildTypeAttr": "debug",
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "com.santasoft.xmastree",
+          "module": "tree-android",
+          "version": {
+            "requires": "2.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "ornaments-android-2.0-debug.aar",
+          "url": "ornaments-android-2.0-debug.aar",
+          "size": 5660,
+          "sha512": "8c1e2d7a3c923945968142f76d61d8dadbe43055e5b1c4e372c27d34169c4d7796b8df925d9d2c8517501e595357ae58d7c15f0b04fe2006d02b6a95abc3a296",
+          "sha256": "c3e568270470ad55c64c3707a0896b8d1a498e4ed801bec244645850e47126e2",
+          "sha1": "61b5a3f2679c718daf4abe0953858bb62f42ee18",
+          "md5": "517cc171cb5bc300032d07aacf894c24"
+        }
+      ]
+    },
+    {
+      "name": "releaseAllApiPublication",
+      "attributes": {
+        "com.android.build.api.attributes.BuildTypeAttr": "release",
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "com.santasoft.xmastree",
+          "module": "tree-android",
+          "version": {
+            "requires": "2.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "ornaments-android-2.0-release.aar",
+          "url": "ornaments-android-2.0-release.aar",
+          "size": 5567,
+          "sha512": "aee29d5a2e875dcd016ab25f163f24e7d19df60b0c2a6333f382a8772edf23de2c1be0044c43ed78d2df5031971508b2c38b781067a20c07416e7886d583dbe1",
+          "sha256": "d2f46e814a204142140936de1ef92f0b2ce445e3b7ea982d7024472164b20849",
+          "sha1": "c1add512223ce3a54a5352f9bff559778abc2d41",
+          "md5": "fff7d2e55d1ab6943e1ce4d6cdaae826"
+        }
+      ]
+    },
+    {
+      "name": "releaseAllRuntimePublication",
+      "attributes": {
+        "com.android.build.api.attributes.BuildTypeAttr": "release",
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "com.santasoft.xmastree",
+          "module": "tree-android",
+          "version": {
+            "requires": "2.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "ornaments-android-2.0-release.aar",
+          "url": "ornaments-android-2.0-release.aar",
+          "size": 5567,
+          "sha512": "aee29d5a2e875dcd016ab25f163f24e7d19df60b0c2a6333f382a8772edf23de2c1be0044c43ed78d2df5031971508b2c38b781067a20c07416e7886d583dbe1",
+          "sha256": "d2f46e814a204142140936de1ef92f0b2ce445e3b7ea982d7024472164b20849",
+          "sha1": "c1add512223ce3a54a5352f9bff559778abc2d41",
+          "md5": "fff7d2e55d1ab6943e1ce4d6cdaae826"
+        }
+      ]
+    }
+  ]
+}

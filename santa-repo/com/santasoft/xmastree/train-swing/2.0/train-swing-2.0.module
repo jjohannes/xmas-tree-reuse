@@ -1,5 +1,5 @@
 {
-  "formatVersion": "0.4",
+  "formatVersion": "1.1",
   "component": {
     "group": "com.santasoft.xmastree",
     "module": "train-swing",
@@ -10,38 +10,17 @@
   },
   "createdBy": {
     "gradle": {
-      "version": "5.0",
-      "buildId": "lsynp5rhcnhxfl2ctepespyfoi"
+      "version": "7.3.3"
     }
   },
   "variants": [
     {
-      "name": "runtime",
+      "name": "apiElements",
       "attributes": {
-        "org.gradle.usage": "java-runtime"
-      },
-      "dependencies": [
-        {
-          "group": "com.santasoft.xmastree",
-          "module": "tree-swing",
-          "version": {
-            "requires": "2.0"
-          }
-        }
-      ],
-      "files": [
-        {
-          "name": "train-swing-2.0.jar",
-          "url": "train-swing-2.0.jar",
-          "size": 3103,
-          "sha1": "af32cbdc3a41e8177c10430359c3dc7c8c915a3f",
-          "md5": "c69365f7498bb719c562bfc0ded0f03b"
-        }
-      ]
-    },
-    {
-      "name": "api",
-      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
         "org.gradle.usage": "java-api"
       },
       "dependencies": [
@@ -57,9 +36,41 @@
         {
           "name": "train-swing-2.0.jar",
           "url": "train-swing-2.0.jar",
-          "size": 3103,
-          "sha1": "af32cbdc3a41e8177c10430359c3dc7c8c915a3f",
-          "md5": "c69365f7498bb719c562bfc0ded0f03b"
+          "size": 3102,
+          "sha512": "528a7827d340fd122929f5b9a64e86f91c1259c5254623cd92258083349c9a4eb14bd4ff2f624d49e052d07282c0d9b7a007aa01b380301b6c5cc7ee453af024",
+          "sha256": "0bc0ed9d7a5829ad27f4dd262e6652e377fef3f37e1353ae5b0ae1ba5cc1aea6",
+          "sha1": "84aa01ecbb29975bb3be143a1cd6df62836c3893",
+          "md5": "9dbaebfd8161200bd89d661e0ecd22c8"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "com.santasoft.xmastree",
+          "module": "tree-swing",
+          "version": {
+            "requires": "2.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "train-swing-2.0.jar",
+          "url": "train-swing-2.0.jar",
+          "size": 3102,
+          "sha512": "528a7827d340fd122929f5b9a64e86f91c1259c5254623cd92258083349c9a4eb14bd4ff2f624d49e052d07282c0d9b7a007aa01b380301b6c5cc7ee453af024",
+          "sha256": "0bc0ed9d7a5829ad27f4dd262e6652e377fef3f37e1353ae5b0ae1ba5cc1aea6",
+          "sha1": "84aa01ecbb29975bb3be143a1cd6df62836c3893",
+          "md5": "9dbaebfd8161200bd89d661e0ecd22c8"
         }
       ]
     }

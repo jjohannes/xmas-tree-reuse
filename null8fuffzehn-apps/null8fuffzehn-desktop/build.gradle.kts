@@ -1,10 +1,9 @@
 plugins {
-    java
-    application
+    id("application")
 }
 
 application {
-    mainClassName = "com.null8fuffzehn.app.DesktopApp"
+    mainClass.set("com.null8fuffzehn.app.DesktopApp")
 }
 
 configurations.all {

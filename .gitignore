@@ -1,8 +1,13 @@
 .gradle
 build
-
 .idea
 *.iml
 out
+local.properties
+maven-metadata.xml
+*.md5
+*.sha1
+*.sha256
+*.sha512
 
 decorated-tree.gif

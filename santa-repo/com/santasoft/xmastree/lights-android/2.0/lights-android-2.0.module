@@ -1,0 +1,138 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.santasoft.xmastree",
+    "module": "lights-android",
+    "version": "2.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.3.3"
+    }
+  },
+  "variants": [
+    {
+      "name": "debugAllApiPublication",
+      "attributes": {
+        "com.android.build.api.attributes.BuildTypeAttr": "debug",
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "com.santasoft.xmastree",
+          "module": "tree-android",
+          "version": {
+            "requires": "2.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "lights-android-2.0-debug.aar",
+          "url": "lights-android-2.0-debug.aar",
+          "size": 10191,
+          "sha512": "8edcf460dd755f6462cfd0fdc60f7fc22bb23d01abf210d15f283d63dbd81ab24691e8763aa47e092a8ffeefe9422bb7747570bf37da70973befbc067fc750e0",
+          "sha256": "3447cbf4edcf479d0c4194330d8206c15b837afbe45017cd27a389c764fcb258",
+          "sha1": "9a021e47622e1de85212eb784f62ba822ec16825",
+          "md5": "e9e75e230d54299fa39b48aef7024cbb"
+        }
+      ]
+    },
+    {
+      "name": "debugAllRuntimePublication",
+      "attributes": {
+        "com.android.build.api.attributes.BuildTypeAttr": "debug",
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "com.santasoft.xmastree",
+          "module": "tree-android",
+          "version": {
+            "requires": "2.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "lights-android-2.0-debug.aar",
+          "url": "lights-android-2.0-debug.aar",
+          "size": 10191,
+          "sha512": "8edcf460dd755f6462cfd0fdc60f7fc22bb23d01abf210d15f283d63dbd81ab24691e8763aa47e092a8ffeefe9422bb7747570bf37da70973befbc067fc750e0",
+          "sha256": "3447cbf4edcf479d0c4194330d8206c15b837afbe45017cd27a389c764fcb258",
+          "sha1": "9a021e47622e1de85212eb784f62ba822ec16825",
+          "md5": "e9e75e230d54299fa39b48aef7024cbb"
+        }
+      ]
+    },
+    {
+      "name": "releaseAllApiPublication",
+      "attributes": {
+        "com.android.build.api.attributes.BuildTypeAttr": "release",
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "com.santasoft.xmastree",
+          "module": "tree-android",
+          "version": {
+            "requires": "2.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "lights-android-2.0-release.aar",
+          "url": "lights-android-2.0-release.aar",
+          "size": 10081,
+          "sha512": "14b005a3b7a69343b580c4cf04c58b506224c4187496cfebf5b2163babe70287192e6733613d4879dd48c9c803efc4ccf01bfbd63c0b4635fa2ec96fcf9e2500",
+          "sha256": "9a70b77207fc74ec9182bc9e91569927acf75e00945f03bdcd80ba889f655b52",
+          "sha1": "3195d40a0b2b921e740055b6b4f231b59c06999a",
+          "md5": "2de15b418d854ef5d4459084b72b7c75"
+        }
+      ]
+    },
+    {
+      "name": "releaseAllRuntimePublication",
+      "attributes": {
+        "com.android.build.api.attributes.BuildTypeAttr": "release",
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "com.santasoft.xmastree",
+          "module": "tree-android",
+          "version": {
+            "requires": "2.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "lights-android-2.0-release.aar",
+          "url": "lights-android-2.0-release.aar",
+          "size": 10081,
+          "sha512": "14b005a3b7a69343b580c4cf04c58b506224c4187496cfebf5b2163babe70287192e6733613d4879dd48c9c803efc4ccf01bfbd63c0b4635fa2ec96fcf9e2500",
+          "sha256": "9a70b77207fc74ec9182bc9e91569927acf75e00945f03bdcd80ba889f655b52",
+          "sha1": "3195d40a0b2b921e740055b6b4f231b59c06999a",
+          "md5": "2de15b418d854ef5d4459084b72b7c75"
+        }
+      ]
+    }
+  ]
+}

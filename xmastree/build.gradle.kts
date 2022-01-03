@@ -7,7 +7,7 @@ buildscript {
         google()
     }
     dependencies {
-        classpath("com.android.tools.build:gradle:3.4.0-alpha07")
+        classpath("com.android.tools.build:gradle:7.0.4")
     }
 }
 
@@ -26,7 +26,7 @@ subprojects {
             setUrl("$rootDir/../santa-repo")
         }
         google()
-        jcenter()
+        mavenCentral()
     }
 
     dependencies {
@@ -35,10 +35,8 @@ subprojects {
             add("api", "com.santasoft.xmastree:tree-$platformSuffix:$publishVersion")
         } else {
             constraints {
-                rootProject.subprojects.forEach {
-                    if (it != this@subprojects && it.name.endsWith(platformSuffix)) {
-                        add("api", "com.santasoft.xmastree:${it.name}:$publishVersion")
-                    }
+                listOf("lights", "ornaments", "train").forEach {
+                    add("api", "com.santasoft.xmastree:${it}:$publishVersion")
                 }
             }
 
@@ -52,7 +50,9 @@ subprojects {
                 artifactId = this@subprojects.name
                 version = publishVersion
                 if (isAndroid()) {
-                    artifact("$buildDir/outputs/aar/${this@subprojects.name}-release.aar")
+                    afterEvaluate {
+                        from(components["all"])
+                    }
                 } else {
                     from(components["java"])
                 }

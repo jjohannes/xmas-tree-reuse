@@ -1,17 +1,11 @@
 {
-  "formatVersion": "0.4",
+  "formatVersion": "1.1",
   "component": {
     "group": "com.santasoft.xmastree",
     "module": "tree",
     "version": "2.0",
     "attributes": {
       "org.gradle.status": "release"
-    }
-  },
-  "createdBy": {
-    "gradle": {
-      "version": "5.0",
-      "buildId": "elqedkdl5nhnpfsdthgz34x5be"
     }
   },
   "variants": [
@@ -26,30 +20,7 @@
         "group": "com.santasoft.xmastree",
         "module": "tree-swing",
         "version": "2.0"
-      },
-      "dependencyConstraints": [
-        {
-          "group": "com.santasoft.xmastree",
-          "module": "lights",
-          "version": {
-            "requires": "2.0"
-          }
-        },
-        {
-          "group": "com.santasoft.xmastree",
-          "module": "ornaments",
-          "version": {
-            "requires": "2.0"
-          }
-        },
-        {
-          "group": "com.santasoft.xmastree",
-          "module": "train",
-          "version": {
-            "requires": "2.0"
-          }
-        }
-      ]
+      }
     },
     {
       "name": "swing-api",
@@ -62,30 +33,7 @@
         "group": "com.santasoft.xmastree",
         "module": "tree-swing",
         "version": "2.0"
-      },
-      "dependencyConstraints": [
-        {
-          "group": "com.santasoft.xmastree",
-          "module": "lights",
-          "version": {
-            "requires": "2.0"
-          }
-        },
-        {
-          "group": "com.santasoft.xmastree",
-          "module": "ornaments",
-          "version": {
-            "requires": "2.0"
-          }
-        },
-        {
-          "group": "com.santasoft.xmastree",
-          "module": "train",
-          "version": {
-            "requires": "2.0"
-          }
-        }
-      ]
+      }
     },
     {
       "name": "gif-runtime",
@@ -98,30 +46,7 @@
         "group": "com.santasoft.xmastree",
         "module": "tree-gif",
         "version": "2.0"
-      },
-      "dependencyConstraints": [
-       {
-         "group": "com.santasoft.xmastree",
-         "module": "lights",
-         "version": {
-           "requires": "2.0"
-         }
-       },
-       {
-         "group": "com.santasoft.xmastree",
-         "module": "ornaments",
-         "version": {
-           "requires": "2.0"
-         }
-       },
-       {
-         "group": "com.santasoft.xmastree",
-         "module": "train",
-         "version": {
-           "requires": "2.0"
-         }
-       }
-     ]
+      }
     },
     {
       "name": "gif-api",
@@ -134,30 +59,7 @@
         "group": "com.santasoft.xmastree",
         "module": "tree-gif",
         "version": "2.0"
-      },
-      "dependencyConstraints": [
-        {
-          "group": "com.santasoft.xmastree",
-          "module": "lights",
-          "version": {
-            "requires": "2.0"
-          }
-        },
-        {
-          "group": "com.santasoft.xmastree",
-          "module": "ornaments",
-          "version": {
-            "requires": "2.0"
-          }
-        },
-        {
-          "group": "com.santasoft.xmastree",
-          "module": "train",
-          "version": {
-            "requires": "2.0"
-          }
-        }
-      ]
+      }
     },
     {
       "name": "android-runtime",
@@ -170,30 +72,7 @@
         "group": "com.santasoft.xmastree",
         "module": "tree-android",
         "version": "2.0"
-      },
-      "dependencyConstraints": [
-        {
-          "group": "com.santasoft.xmastree",
-          "module": "lights",
-          "version": {
-            "requires": "2.0"
-          }
-        },
-        {
-          "group": "com.santasoft.xmastree",
-          "module": "ornaments",
-          "version": {
-            "requires": "2.0"
-          }
-        },
-        {
-          "group": "com.santasoft.xmastree",
-          "module": "train",
-          "version": {
-            "requires": "2.0"
-          }
-        }
-      ]
+      }
     },
     {
       "name": "android-api",
@@ -206,30 +85,7 @@
         "group": "com.santasoft.xmastree",
         "module": "tree-android",
         "version": "2.0"
-      },
-      "dependencyConstraints": [
-        {
-          "group": "com.santasoft.xmastree",
-          "module": "lights",
-          "version": {
-            "requires": "2.0"
-          }
-        },
-        {
-          "group": "com.santasoft.xmastree",
-          "module": "ornaments",
-          "version": {
-            "requires": "2.0"
-          }
-        },
-        {
-          "group": "com.santasoft.xmastree",
-          "module": "train",
-          "version": {
-            "requires": "2.0"
-          }
-        }
-      ]
+      }
     }
   ]
 }

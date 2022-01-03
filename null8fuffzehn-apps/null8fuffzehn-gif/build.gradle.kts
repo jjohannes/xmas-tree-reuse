@@ -1,12 +1,14 @@
-import org.gradle.kotlin.dsl.resolver.SourceDistributionResolver.Companion.artifactType
-
 plugins {
-    java
-    application
+    id("java")
 }
 
-application {
-    mainClassName = "com.santasoft.xmastree.Tree"
+val gifsToMerge = tasks.register("gifsToMerge") {
+    doLast {
+        println(configurations.runtimeClasspath.get().files.joinToString { it.name })
+    }
+}
+tasks.build {
+    dependsOn(gifsToMerge)
 }
 
 val uiFramework = Attribute.of("ui-framework", String::class.java)
@@ -18,6 +20,7 @@ configurations.all {
         attribute(uiArtifact, "imageJar")
     }
 }
+
 
 dependencies {
     implementation(project(":null8fuffzehn-shared"))
@@ -43,22 +46,24 @@ dependencies {
         attributes.attribute(uiArtifact, "completeJar")
     }
 
-    registerTransform {
-        from.attribute(artifactType, "jar").attribute(uiArtifact, "completeJar")
-        to.attribute(artifactType, "jar").attribute(uiArtifact, "imageJar")
-        artifactTransform(Jar2ImageJar::class)
+    registerTransform(Jar2ImageJar::class) {
+        from.attribute(ArtifactTypeDefinition.ARTIFACT_TYPE_ATTRIBUTE, "jar").attribute(uiArtifact, "completeJar")
+        to.attribute(ArtifactTypeDefinition.ARTIFACT_TYPE_ATTRIBUTE, "jar").attribute(uiArtifact, "imageJar")
     }
 }
 
-class Jar2ImageJar : ArtifactTransform() {
+abstract class Jar2ImageJar : TransformAction<TransformParameters.None> {
 
-    override fun transform(input: File) : List<File> {
-        return if (input.name.contains("-swing")) {
-            val output = File(outputDirectory, input.name.replace("-swing", "-gif"))
-            input.copyTo(output) //TODO remove non-image files from jar
-            listOf(output)
+    @get:InputArtifact
+    abstract val inputArtifact: Provider<FileSystemLocation>
+
+    override fun transform(outputs: TransformOutputs) {
+        val inputFile = inputArtifact.get().asFile
+        if (inputFile.name.contains("-swing")) {
+            val output = outputs.file(inputFile.name.replace("-swing", "-gif"))
+            inputFile.copyTo(output) //TODO remove non-image files from jar
         } else {
-            listOf(input)
+            outputs.file(inputFile)
         }
     }
 

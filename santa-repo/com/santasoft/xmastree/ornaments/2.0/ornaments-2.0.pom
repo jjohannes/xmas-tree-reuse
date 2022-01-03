@@ -8,16 +8,6 @@
   <!-- do_not_remove: published-with-gradle-metadata -->
   <modelVersion>4.0.0</modelVersion>
   <groupId>com.santasoft.xmastree</groupId>
-  <artifactId>ornaments-android</artifactId>
+  <artifactId>ornaments</artifactId>
   <version>2.0</version>
-  <packaging>pom</packaging>
-  <dependencies>
-    <dependency>
-      <groupId>com.santasoft.xmastree</groupId>
-      <artifactId>tree-android</artifactId>
-      <version>2.0</version>
-      <scope>compile</scope>
-      <optional>true</optional>
-    </dependency>
-  </dependencies>
 </project>

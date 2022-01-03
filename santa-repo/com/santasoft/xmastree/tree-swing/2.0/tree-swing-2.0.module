@@ -1,5 +1,5 @@
 {
-  "formatVersion": "0.4",
+  "formatVersion": "1.1",
   "component": {
     "group": "com.santasoft.xmastree",
     "module": "tree-swing",
@@ -10,72 +10,37 @@
   },
   "createdBy": {
     "gradle": {
-      "version": "5.0",
-      "buildId": "lsynp5rhcnhxfl2ctepespyfoi"
+      "version": "7.3.3"
     }
   },
   "variants": [
     {
-      "name": "runtime",
+      "name": "apiElements",
       "attributes": {
-        "org.gradle.usage": "java-runtime"
-      },
-      "dependencyConstraints": [
-        {
-          "group": "com.santasoft.xmastree",
-          "module": "lights-swing",
-          "version": {
-            "requires": "2.0"
-          }
-        },
-        {
-          "group": "com.santasoft.xmastree",
-          "module": "ornaments-swing",
-          "version": {
-            "requires": "2.0"
-          }
-        },
-        {
-          "group": "com.santasoft.xmastree",
-          "module": "train-swing",
-          "version": {
-            "requires": "2.0"
-          }
-        }
-      ],
-      "files": [
-        {
-          "name": "tree-swing-2.0.jar",
-          "url": "tree-swing-2.0.jar",
-          "size": 7846,
-          "sha1": "1414f63953876ee06aeaf975dfed80adf38a6439",
-          "md5": "77560cfd3fcb111fca3a39bdee1618fa"
-        }
-      ]
-    },
-    {
-      "name": "api",
-      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
         "org.gradle.usage": "java-api"
       },
       "dependencyConstraints": [
         {
           "group": "com.santasoft.xmastree",
-          "module": "lights-swing",
+          "module": "lights",
           "version": {
             "requires": "2.0"
           }
         },
         {
           "group": "com.santasoft.xmastree",
-          "module": "ornaments-swing",
+          "module": "ornaments",
           "version": {
             "requires": "2.0"
           }
         },
         {
           "group": "com.santasoft.xmastree",
-          "module": "train-swing",
+          "module": "train",
           "version": {
             "requires": "2.0"
           }
@@ -86,8 +51,54 @@
           "name": "tree-swing-2.0.jar",
           "url": "tree-swing-2.0.jar",
           "size": 7846,
-          "sha1": "1414f63953876ee06aeaf975dfed80adf38a6439",
-          "md5": "77560cfd3fcb111fca3a39bdee1618fa"
+          "sha512": "2f180606013ea8210e0b85a46e2fdafff18d3fc234fc79ca1271bb0550270a019f5ac4f2631cf12fb8a1f9b110efe6555e9d377571c69a1ef5e12df53c9a155c",
+          "sha256": "430e2598978ed7c344ce318183e47294d44aba286d78f18bf842c07a299336d7",
+          "sha1": "e5f86b62aa589625c84557f03c82ee52e9429b23",
+          "md5": "156b22e9adbaf8ec4d8718b6483668cd"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencyConstraints": [
+        {
+          "group": "com.santasoft.xmastree",
+          "module": "lights",
+          "version": {
+            "requires": "2.0"
+          }
+        },
+        {
+          "group": "com.santasoft.xmastree",
+          "module": "ornaments",
+          "version": {
+            "requires": "2.0"
+          }
+        },
+        {
+          "group": "com.santasoft.xmastree",
+          "module": "train",
+          "version": {
+            "requires": "2.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "tree-swing-2.0.jar",
+          "url": "tree-swing-2.0.jar",
+          "size": 7846,
+          "sha512": "2f180606013ea8210e0b85a46e2fdafff18d3fc234fc79ca1271bb0550270a019f5ac4f2631cf12fb8a1f9b110efe6555e9d377571c69a1ef5e12df53c9a155c",
+          "sha256": "430e2598978ed7c344ce318183e47294d44aba286d78f18bf842c07a299336d7",
+          "sha1": "e5f86b62aa589625c84557f03c82ee52e9429b23",
+          "md5": "156b22e9adbaf8ec4d8718b6483668cd"
         }
       ]
     }

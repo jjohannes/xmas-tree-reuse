@@ -1,5 +1,5 @@
 {
-  "formatVersion": "0.4",
+  "formatVersion": "1.1",
   "component": {
     "group": "com.santasoft.xmastree",
     "module": "tree-gif",
@@ -10,44 +10,37 @@
   },
   "createdBy": {
     "gradle": {
-      "version": "5.0",
-      "buildId": "lsynp5rhcnhxfl2ctepespyfoi"
+      "version": "7.3.3"
     }
   },
   "variants": [
     {
-      "name": "runtime",
+      "name": "apiElements",
       "attributes": {
-        "org.gradle.usage": "java-runtime"
-      },
-      "dependencyConstraints": [
-        {
-          "group": "com.santasoft.xmastree",
-          "module": "lights-gif",
-          "version": {
-            "requires": "2.0"
-          }
-        }
-      ],
-      "files": [
-        {
-          "name": "tree-gif-2.0.jar",
-          "url": "tree-gif-2.0.jar",
-          "size": 10224,
-          "sha1": "a28a16cb245a129cb50ada39b5dad4da21ef2203",
-          "md5": "7e9d507502f9c6cf8327c1c72ef5f7d6"
-        }
-      ]
-    },
-    {
-      "name": "api",
-      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
         "org.gradle.usage": "java-api"
       },
       "dependencyConstraints": [
         {
           "group": "com.santasoft.xmastree",
-          "module": "lights-gif",
+          "module": "lights",
+          "version": {
+            "requires": "2.0"
+          }
+        },
+        {
+          "group": "com.santasoft.xmastree",
+          "module": "ornaments",
+          "version": {
+            "requires": "2.0"
+          }
+        },
+        {
+          "group": "com.santasoft.xmastree",
+          "module": "train",
           "version": {
             "requires": "2.0"
           }
@@ -57,9 +50,55 @@
         {
           "name": "tree-gif-2.0.jar",
           "url": "tree-gif-2.0.jar",
-          "size": 10224,
-          "sha1": "a28a16cb245a129cb50ada39b5dad4da21ef2203",
-          "md5": "7e9d507502f9c6cf8327c1c72ef5f7d6"
+          "size": 10228,
+          "sha512": "37162c14749247a59b23c299930b4bf2630b732865de40e7633cea294fa4798cda40db9d1090e9f869149edd6ffb3f5ec818e9f57a9d5747a5116e7aa2f685f0",
+          "sha256": "b5db7c2514da090521dafbec0351cc7a0a67a10db1cf459ecc256b72e94b200e",
+          "sha1": "b4af3302eaac7cc91d1d889b0cca583a0776f9d2",
+          "md5": "02c0bb8ab45299950af5df056142445e"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencyConstraints": [
+        {
+          "group": "com.santasoft.xmastree",
+          "module": "lights",
+          "version": {
+            "requires": "2.0"
+          }
+        },
+        {
+          "group": "com.santasoft.xmastree",
+          "module": "ornaments",
+          "version": {
+            "requires": "2.0"
+          }
+        },
+        {
+          "group": "com.santasoft.xmastree",
+          "module": "train",
+          "version": {
+            "requires": "2.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "tree-gif-2.0.jar",
+          "url": "tree-gif-2.0.jar",
+          "size": 10228,
+          "sha512": "37162c14749247a59b23c299930b4bf2630b732865de40e7633cea294fa4798cda40db9d1090e9f869149edd6ffb3f5ec818e9f57a9d5747a5116e7aa2f685f0",
+          "sha256": "b5db7c2514da090521dafbec0351cc7a0a67a10db1cf459ecc256b72e94b200e",
+          "sha1": "b4af3302eaac7cc91d1d889b0cca583a0776f9d2",
+          "md5": "02c0bb8ab45299950af5df056142445e"
         }
       ]
     }
